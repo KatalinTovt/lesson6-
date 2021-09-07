@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./task.css">
+</head>
+
+<body>
+  <div id="sign-up">
+    <div class="header" id="sign-up-header">Please sign up</div>
+    <div class="inpt-container">
+      <input type="text" id="first-name-up" class="inpt-up inpt" placeholder="First name">
+      <img class="true" id="first-true" src="./img/checkmark-16.png" alt="">
+      <img class="false" id="first-false" src="./img/x-mark-16.png" alt="">
+    </div>
+    <div class="inpt-container">
+      <input type="text" id="last-name-up" class="inpt-up inpt" placeholder="Last name">
+      <img class="true" id="last-true" src="./img/checkmark-16.png" alt="">
+      <img class="false" id="last-false" src="./img/x-mark-16.png" alt="">
+    </div>
+    <div class="inpt-container">
+      <input type="text" id="email-up" class="inpt-up inpt" placeholder="Email address">
+      <div class="error" id="error-email">This email alredy exist</div>
+      <img class="true email-true" id="email-true" src="./img/checkmark-16.png" alt="">
+      <img class="false email-false" id="email-false" src="./img/x-mark-16.png" alt="">
+    </div>
+    <div class="inpt-container">
+      <input type="password" id="password-up" class="inpt-up inpt" placeholder="Pasword">
+      <img class="true" id="password-true" src="./img/checkmark-16.png" alt="">
+      <img class="false" id="password-false" src="./img/x-mark-16.png" alt="">
+    </div>
+    <input type="button" value="Sign Up" id="btn-sign-up" class="btn">
+    <a id="sign-in-now" href="">Sign in now</a>
+  </div>
+  <div id="sign-in">
+    <div class="header" id="sign-up-header">Please sign in</div>
+    <div class="inpt-container">
+      <input type="text" id="email-in" class="inpt-in inpt" placeholder="Email address">
+    </div>
+    <div class="inpt-container">
+      <input type="password" id="password-in" class="inpt-in inpt" placeholder="Pasword">
+    </div>
+    <div class="error" id="error-sign-in">Incorrect email or password</div>
+    <input type="button" value="Sign In" id="btn-sign-in" class="btn">
+    <a id="sign-up-now" href="">Sign up now</a>
+  </div>
+  <div id="profile">
+    <img id="avatar" src="./img/png-clipart-computer-icons-user-profile-avatar-female-profile-heroes-head (1).png"
+      alt="">
+    <div id="person-name">Name</div>
+    <div id="person-email">Email@email.com</div>
+    <div id="person-profesion">Designer & Web Developing</div>
+    <hr>
+    <input type="button" value="Sign Up" id="btn-sign-up-profile" class="btn">
+  </div>
+
+  <script src="./task.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+body{
+  background-color: whitesmoke;
+}
+#sign-up, #sign-in{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 80px;
+}
+#sign-in{
+  display: none;
+}
+
+#sign-up-header{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.inpt-up, .inpt-in{
+  height: 50px;
+  width: 450px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+font-size: 17px;
+padding: 5px;
+margin: 20px;
+}
+#btn-sign-up{
+   background-color: #2754f9;
+}
+#btn-sign-up:hover{
+  background-color: #1c43cf;
+}
+#btn-sign-in{
+background-color: rgb(5, 172, 5);
+}
+#btn-sign-in:hover{
+  background-color: rgb(13, 145, 13);
+  }
+.btn{
+  width: 462px;
+  height: 50px;
+  color: white;
+  border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: auto;
+}
+a{
+  color: #2754f9;
+  text-decoration: none;
+  margin: initial;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.inpt-container{
+  width: 500px;
+}
+.true{
+  position: relative;
+    left: 452px;
+    bottom: 59px;
+    display: none;
+}
+#email-true{
+  bottom: 41px;
+}
+.false{
+  display: none;
+  position: relative;
+    left: 452px;
+    bottom: 59px;
+}
+#email-false{
+  display: none;
+  position: relative;
+  bottom: 42px;
+  left: 450px;
+}
+#error-email{
+  background-color: indianred;
+    height: 22px;
+    width: max-content;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 670px;
+    display: none;
+}
+#error-sign-in{
+  background-color: indianred;
+    height: 22px;
+    width: max-content;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 670px;
+    top: 316px;
+    display: none;
+}
+#email-up{
+  margin-bottom: 0;
+}
+#password-up{
+  margin-top: 40px;
+}
+#profile{
+  display: none;
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  box-sizing: border-box;
+  flex-direction: column;
+  border-radius: 5px;
+}
+#avatar{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+#person-name{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+#person-email{
+  text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: gray;
+}
+#person-profesion{
+  text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    color: gray;
+}
+hr{
+  color: grey;
+  margin-top: 34px;
+  margin-bottom: 175px;
+  width: 90px;
+}
+
+#btn-sign-up-profile{
+  background-color: rgb(5, 172, 5);
+  width: 500px;
+}
